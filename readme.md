@@ -32,14 +32,20 @@ Data Processing	Pandas/NumPy	Time-series analysis
 Optimization Algorithm
 The application uses a gradient-based optimization approach with reliability constraints:
 
-text
-1. Load hourly data (8760 points)
-2. Initialize PV and battery parameters
-3. Run energy balance simulation
-4. Calculate reliability (must be ≥95%)
-5. Compute financial metrics (NPV, IRR, LCOE)
-6. Adjust parameters to minimize LCOE
-7. Iterate until convergence
+Load hourly data (8760 points)
+
+Initialize PV and battery parameters
+
+Run energy balance simulation
+
+Calculate reliability (must be ≥95%)
+
+Compute financial metrics (NPV, IRR, LCOE)
+
+Adjust parameters to minimize LCOE
+
+Iterate until convergence
+
 Key Equation:
 
 text
@@ -491,8 +497,7 @@ RETScreen Expert
 
 Energy Toolbase
 
-Special Thanks:
-To the open-source community and energy research institutions advancing renewable energy technologies.
+Special Thanks: To the open-source community and energy research institutions advancing renewable energy technologies.
 
 📊 Performance Benchmarks
 Computation Time:
@@ -528,7 +533,6 @@ Research Projects: Master's/PhD thesis work
 Workshops: Hands-on energy system design training
 
 Learning Outcomes:
-
 Understanding hybrid system dynamics
 
 Financial modeling for energy projects
